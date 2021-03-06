@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* Start for flex card project */
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #efefef;
+	flex-wrap: wrap;
+}
+.card{
+	width: 300px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.card img{
+	object-fit: cover;
+}
+.buttonGroup{
+	display: flex;
+	justify-content: space-between;
+}
+.buy{
+	background: #ff9f00;
+	padding: 5px;
+}
+.cart{
+	background: #fb641b;
+	padding: 5px;
+}
+/* @media (max-width:700px){
+	.buttonGroup{
+		justify-content: space-around;
+	}
+} */
+/* End for flex card project */
